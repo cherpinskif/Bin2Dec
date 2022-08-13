@@ -4,33 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+   
     <title>Document</title>
 </head>
-<body class="container">
+<body class="container-fluid bg-success">
 
+    <div class="row border border-primary my-5">
+        <div class="col-4 text-center my-5">a</div>
+        <div class="col-4 text-center my-5">                
+            <input class="text-center form-floating mb-3 form-control my-2" type="text" name="" id="cxTextoUm">
+        </div>
+        <div class="col-4 text-center my-5">a</div>
+    </div>
+    <div class="row border border-primary my-5">
+        <div class="col-4 text-center my-5">a</div>
+        <div class="col-4 text-center my-5">                
+            <button class="btn btn-warning" id="btnCalculo" >Converter</button>
+        </div>
+        <div class="col-4 text-center my-5">a</div>
+    </div>
+    <div class="row border border-primary my-5">
+        <div class="col-4 text-center my-5">a</div>
+        <div class="col-4 text-center my-5"> 
+            <label class="d-flex justify-content-center p-3 my-3 form-floating mb-5 form-control border bg-success border-success fs-5" id="calculoBinario"></label>     
+        </div>
+        <div class="col-4 text-center my-5">a</div>
+    </div>
+    
 
-
-<br>
-<input type="text" name="" id="cxTextoUm">
-<label id="calculoUm"></label>
-<br>
-<input type="text" name="" id="cxTextoDois">
-<label id="calculoDois"></label>
-<br>
-<input type="text" name="" id="cxTextoTres">
-<label id="calculoTres"></label>
-<br>
-
-<button class="rolarDados" id="btnCalculo" style="flex-flow: wrap;">calcular</button>
-
-<br>
-
-<label id="erroDigitacao"></label>
-
-<br>
-
-<label id="calculoBinario"></label>
 
 <script src="index.js"></script>
 </body>

@@ -26,16 +26,9 @@ if(a.length == 1){
          alert(texto);
                 }
    
-      if(a == 0 || a == 1){
-         document.getElementById("calculoBinario").hidden = false;
          console.log(b);
          document.getElementById("calculoBinario").innerHTML = b;
-                          }
-      else{
-         document.getElementById("calculoBinario").hidden = true;
-         console.log(b);
-         document.getElementById("calculoBinario").innerHTML = b;
-          }
+
 }
 
 if(a.length == 2){
@@ -61,16 +54,10 @@ if(a.length == 2){
          console.log("Tecle apenas 0 ou 1");
          alert(texto);
                }   
-   if(a == 0 || a == 1){
-      document.getElementById("calculoBinario").hidden = false;
+
       console.log(b+c);
       document.getElementById("calculoBinario").innerHTML = b+c;
-                       }
-   else{
-      document.getElementById("calculoBinario").hidden = true;
-      console.log(b+c);
-      document.getElementById("calculoBinario").innerHTML = b + c;
-       }
+
    
 }
 
@@ -108,16 +95,10 @@ if(a.length == 3){
          console.log("Tecle apenas 0 ou 1");
          alert(texto);
                } 
-   if(a != 0 && a != 1){
-      document.getElementById("calculoBinario").hidden = true;
+
       console.log(b+c+d); 
       document.getElementById("calculoBinario").innerHTML = b+c+d; 
-                       }
-   else{
-      document.getElementById("calculoBinario").hidden = false;
-      console.log(b+c+d); 
-      document.getElementById("calculoBinario").innerHTML = b+c+d; 
-      } 
+
 }
 
 if(a.length == 4){
@@ -166,16 +147,11 @@ if(a.length == 4){
          alert(texto);
                } 
                
-   if(a != 0 && a != 1){
-      document.getElementById("calculoBinario").hidden = true;
+
       console.log(b+c+d+e); 
       document.getElementById("calculoBinario").innerHTML = b+c+d+e; 
-                       }
-   else{
-      document.getElementById("calculoBinario").hidden = false; 
-      console.log(b+c+d+e); 
-      document.getElementById("calculoBinario").innerHTML = b+c+d+e; 
-       }    
+                       
+
 }
 
 if(a.length == 5){
@@ -235,16 +211,10 @@ if(a.length == 5){
          alert(texto);
                } 
 
-   if(a != 0 && a != 1){
-      document.getElementById("calculoBinario").hidden = true;
+
       console.log(b+c+d+e+f);
       document.getElementById("calculoBinario").innerHTML = b + c + d + e + f;  
-                        }
-   else{
-      document.getElementById("calculoBinario").hidden = false; 
-      console.log(b+c+d+e+f);
-      document.getElementById("calculoBinario").innerHTML = b + c + d + e + f;      
-       }
+
 }
 
 if(a.length == 6){
@@ -314,17 +284,10 @@ if(a.length == 6){
          console.log("Tecle apenas 0 ou 1");
          alert(texto);
                } 
-               
-   if(a != 0 && a != 1){
-      document.getElementById("calculoBinario").hidden = true;
+
       console.log(b+c+d+e+f+g);
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g;   
-                        }
-   else{
-      document.getElementById("calculoBinario").hidden = false; 
-      console.log(b+c+d+e+f+g);
-      document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g;    
-       }     
+                        
 }
 
 if(a.length == 7){
@@ -406,16 +369,9 @@ if(a.length == 7){
          alert(texto);
                } 
 
-   if(a != 0 && a != 1){
-      document.getElementById("calculoBinario").hidden = true;
       console.log(b+c+d+e+f+g+h); 
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h; 
-                        }
-   else{
-      document.getElementById("calculoBinario").hidden = false; 
-      console.log(b+c+d+e+f+g+h); 
-      document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h;  
-       }          
+       
 }
 
 if(a.length == 8){
@@ -508,15 +464,8 @@ if(a.length == 8){
          alert(texto);
                }
 
-   if(a != 0 && a != 1){
-      document.getElementById("calculoBinario").hidden = true;
       console.log(b+c+d+e+f+g+h+i);   
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h+i; 
-                        }
-   else{
-      document.getElementById("calculoBinario").hidden = false; 
-      console.log(b+c+d+e+f+g+h+i);   
-      document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h+i; 
-       }      
+                           
 }
 }
