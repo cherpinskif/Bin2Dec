@@ -10,34 +10,40 @@
 </head>
 <body class="container-fluid bg-success">
 
-    <div class="row my-3">
-        <div class="col-4 text-center my-5"></div>
-        <div class="col-4 text-center my-5 fs-1 text fw-bold text-white">BIN2DEC</div>
-        <div class="col-4 text-center my-5"></div>
+    <div class="row-sm align-items-start my-1">
+        <div class="col text-center fs-1 text fw-bold text-white">BIN2DEC</div>
     </div>
-    <div class="row my-3">
-        <div class="col-4 text-center my-5"></div>
-        <div class="col-4 text-center my-5">                
-            <input class="text-center form-floating mb-3 form-control my-2" type="text" name="" id="cxTextoUm">
+
+    <div class="row-sm  ">
+        <div class="col-sm text-center my-1">                
+            <a href="https://en.wikipedia.org/wiki/Binary_number"><label  class="fs-3 text-warning link-success bg-dark border rounded-3">Insira um número binário e encontre o valor decimal</label></a>
         </div>
-        <div class="col-4 text-center my-5"></div>
     </div>
-    <div class="row my-3">
-        <div class="col-4 text-center my-5"></div>
-        <div class="col-4 text-center my-5">                
+
+    <div class="row-sm  ">
+        <div class="col-sm text-center my-1">                
+            <input type="text" maxlength="20" class="text-center form-floating mb-3 form-control my-2" type="text" name="" id="cxTextoUm">
+        </div>
+    </div>
+
+    <div class="row-sm ">
+        <div class="col-4-sm text-center">                
             <button class="btn btn-warning" id="btnCalculo" >Converter</button>
         </div>
-        <div class="col-4 text-center my-5"></div>
     </div>
-    <div class="row my-3">
-        <div class="col-4 text-center my-5"></div>
-        <div class="col-4 text-center my-5"> 
+    <div class="row-sm ">
+        <div class="col-4-sm text-center"> 
             <label class="d-flex justify-content-center p-3 my-3 form-floating mb-5 form-control border bg-success border-success fs-1 text fw-bold text-white" id="calculoBinario"></label>     
         </div>
-        <div class="col-4 text-center my-5"></div>
     </div>
     
-
+    <footer class=" text-center text-lg-start">
+        <!-- Copyright -->
+        <div class="d-flex justify-content-center">
+        <div class="text-center">© 2022 Copyright: Felipe Cherpinski</div>
+        </div>
+        <!-- Copyright -->
+      </footer>
 
 <script src="index.js"></script>
 </body>
