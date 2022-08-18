@@ -39,10 +39,8 @@ if(a.length == 1){
          console.log("Tecle apenas 0 ou 1");
          alert(texto);
                 }
-   
          console.log(b);
          document.getElementById("calculoBinario").innerHTML = b;
-
 }
 
 if(a.length == 2){
@@ -100,7 +98,7 @@ if(a.length == 3){
                }
    switch(true){
       case a.charAt(2) == 1:
-         d = Math.pow(a.charAt(1)*2,0);
+         d = Math.pow(a.charAt(2)*2,0);
          break;
       case a.charAt(2) == 0:
          d = 0;
@@ -140,7 +138,7 @@ if(a.length == 4){
                }
    switch(true){
       case a.charAt(2) == 1:
-         d = Math.pow(a.charAt(1)*2,1);
+         d = Math.pow(a.charAt(2)*2,1);
          break;
       case a.charAt(2) == 0:
          d = 0;
@@ -151,7 +149,7 @@ if(a.length == 4){
                } 
    switch(true){
       case a.charAt(3) == 1:
-         e = Math.pow(a.charAt(1)*2,0);
+         e = Math.pow(a.charAt(3)*2,0);
          break;
       case a.charAt(3) == 0:
          e = 0;
@@ -193,7 +191,7 @@ if(a.length == 5){
                }
    switch(true){
       case a.charAt(2) == 1:
-         d = Math.pow(a.charAt(1)*2,2);
+         d = Math.pow(a.charAt(2)*2,2);
          break;
       case a.charAt(2) == 0:
          d = 0;
@@ -204,7 +202,7 @@ if(a.length == 5){
                } 
    switch(true){
       case a.charAt(3) == 1:
-         e = Math.pow(a.charAt(1)*2,1);
+         e = Math.pow(a.charAt(3)*2,1);
          break;
       case a.charAt(3) == 0:
          e = 0;
@@ -215,7 +213,7 @@ if(a.length == 5){
                } 
    switch(true){
       case a.charAt(4) == 1:
-         f = Math.pow(a.charAt(1)*2,0);
+         f = Math.pow(a.charAt(4)*2,0);
          break;
       case a.charAt(4) == 0:
          f = 0;
@@ -254,7 +252,7 @@ if(a.length == 6){
                }
    switch(true){
       case a.charAt(2) == 1:
-         d = Math.pow(a.charAt(1)*2,3);
+         d = Math.pow(a.charAt(2)*2,3);
          break;
       case a.charAt(2) == 0:
          d = 0;
@@ -265,7 +263,7 @@ if(a.length == 6){
                } 
    switch(true){
       case a.charAt(3) == 1:
-         e = Math.pow(a.charAt(1)*2,2);
+         e = Math.pow(a.charAt(3)*2,2);
          break;
       case a.charAt(3) == 0:
          e = 0;
@@ -276,7 +274,7 @@ if(a.length == 6){
                } 
    switch(true){
       case a.charAt(4) == 1:
-         f = Math.pow(a.charAt(1)*2,1);
+         f = Math.pow(a.charAt(4)*2,1);
          break;
       case a.charAt(4) == 0:
          f = 0;
@@ -287,7 +285,7 @@ if(a.length == 6){
                } 
    switch(true){
       case a.charAt(5) == 1:
-         g = Math.pow(a.charAt(1)*2,0);
+         g = Math.pow(a.charAt(5)*2,0);
          break;
       case a.charAt(5) == 0:
          g = 0;
@@ -327,7 +325,7 @@ if(a.length == 7){
                }
    switch(true){
       case a.charAt(2) == 1:
-         d = Math.pow(a.charAt(1)*2,4);
+         d = Math.pow(a.charAt(2)*2,4);
          break;
       case a.charAt(2) == 0:
          d = 0;
@@ -338,7 +336,7 @@ if(a.length == 7){
                } 
    switch(true){
       case a.charAt(3) == 1:
-         e = Math.pow(a.charAt(1)*2,3);
+         e = Math.pow(a.charAt(3)*2,3);
          break;
       case a.charAt(3) == 0:
          e = 0;
@@ -349,7 +347,7 @@ if(a.length == 7){
                } 
    switch(true){
       case a.charAt(4) == 1:
-         f = Math.pow(a.charAt(1)*2,2);
+         f = Math.pow(a.charAt(4)*2,2);
          break;
       case a.charAt(4) == 0:
          f = 0;
@@ -360,7 +358,7 @@ if(a.length == 7){
                } 
    switch(true){
       case a.charAt(5) == 1:
-         g = Math.pow(a.charAt(1)*2,1);
+         g = Math.pow(a.charAt(5)*2,1);
          break;
       case a.charAt(5) == 0:
          g = 0;
@@ -371,7 +369,7 @@ if(a.length == 7){
                } 
    switch(true){
       case a.charAt(6) == 1:
-         h = Math.pow(a.charAt(1)*2,0);
+         h = Math.pow(a.charAt(6)*2,0);
          break;
       case a.charAt(6) == 0:
          h = 0;
@@ -411,7 +409,7 @@ if(a.length == 8){
                }
    switch(true){
       case a.charAt(2) == 1:
-         d = Math.pow(a.charAt(1)*2,5);
+         d = Math.pow(a.charAt(2)*2,5);
          break;
       case a.charAt(2) == 0:
          d = 0;
@@ -422,7 +420,7 @@ if(a.length == 8){
                } 
    switch(true){
       case a.charAt(3) == 1:
-         e = Math.pow(a.charAt(1)*2,4);
+         e = Math.pow(a.charAt(3)*2,4);
          break;
       case a.charAt(3) == 0:
          e = 0;
@@ -433,7 +431,7 @@ if(a.length == 8){
                } 
    switch(true){
       case a.charAt(4) == 1:
-         f = Math.pow(a.charAt(1)*2,3);
+         f = Math.pow(a.charAt(4)*2,3);
          break;
       case a.charAt(4) == 0:
          f = 0;
@@ -444,7 +442,7 @@ if(a.length == 8){
                } 
    switch(true){
       case a.charAt(5) == 1:
-         g = Math.pow(a.charAt(1)*2,2);
+         g = Math.pow(a.charAt(5)*2,2);
          break;
       case a.charAt(5) == 0:
          g = 0;
@@ -455,7 +453,7 @@ if(a.length == 8){
                }  
    switch(true){
       case a.charAt(6) == 1:
-         h = Math.pow(a.charAt(1)*2,1);
+         h = Math.pow(a.charAt(6)*2,1);
          break;
       case a.charAt(6) == 0:
          h = 0;
@@ -466,7 +464,7 @@ if(a.length == 8){
                } 
    switch(true){
       case a.charAt(7) == 1:
-         i = Math.pow(a.charAt(1)*2,0);
+         i = Math.pow(a.charAt(7)*2,0);
          break;
       case a.charAt(7) == 0:
          i = 0;
@@ -1738,7 +1736,7 @@ if(a.length == 17){
                }
       switch(true){
          case a.charAt(16) == 1:
-            s = Math.pow(a.charAt(15)*2,0);
+            s = Math.pow(a.charAt(16)*2,0);
             break;
          case a.charAt(16) == 0:
             s = 0;
@@ -2369,5 +2367,4 @@ if(a.length == 20){
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s+t+u+v; 
                            
 }
-
 }
