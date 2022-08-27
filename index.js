@@ -1745,7 +1745,7 @@ if(a.length == 17){
             console.log("Tecle apenas 0 ou 1");
             alert(texto);
                   }
-      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s);   
+      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r);   
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s; 
                            
 }
@@ -1940,7 +1940,7 @@ if(a.length == 18){
          console.log("Tecle apenas 0 ou 1");
          alert(texto);
                }
-      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s+t);   
+      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t);   
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s+t; 
                            
 }
@@ -2146,7 +2146,7 @@ if(a.length == 19){
          console.log("Tecle apenas 0 ou 1");
          alert(texto);
                }
-      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s+t+u);   
+      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u);   
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s+t+u; 
                            
 }
@@ -2363,7 +2363,7 @@ if(a.length == 20){
          console.log("Tecle apenas 0 ou 1");
          alert(texto);
                }
-      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s+t+u+v);   
+      console.log(b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+r+s+t+u+v);   
       document.getElementById("calculoBinario").innerHTML = b+c+d+e+f+g+h+i+j+k+l+m+n+o+p+q+s+t+u+v; 
                            
 }
